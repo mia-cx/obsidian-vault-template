@@ -1,0 +1,3 @@
+[submodule ".obsidian/themes/mCX"]
+	path = .obsidian/themes/mCX
+	url = git@github.com:mia-cx/obsidian-theme-mcx
