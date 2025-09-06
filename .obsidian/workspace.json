@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2213a5ca60fa3c20",
+        "id": "bdaff567392aaf11",
         "type": "tabs",
         "children": [
           {
-            "id": "a25fd61c41ab6fe1",
+            "id": "38cbd47c77e10f6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99 - Meta/Typography.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Typography"
+              "title": "New tab"
             }
           }
         ]
@@ -83,6 +69,16 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "647ee8e341c906e1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
@@ -124,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 - Meta/Typography.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Typography"
+              "title": "Outline"
             }
           },
           {
@@ -222,7 +217,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "99 - Meta/Typography.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,7 +244,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Typography"
+              "title": "Graph view"
             }
           }
         ]
@@ -273,15 +267,23 @@
       "random-note:Open random note": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "761684283adc3b24",
+  "active": "38cbd47c77e10f6b",
   "lastOpenFiles": [
-    "99 - Meta/sortspec.md",
     "99 - Meta/Typography.md",
-    "05 - Fleeting/Untitled.canvas",
+    "99 - Meta/Pomo.md",
+    "99 - Meta/sortspec.md",
     "README.md",
+    "TODO.md",
+    "Tags",
+    "05 - Fleeting/Untitled.canvas",
     "Untitled.canvas",
     "99 - Meta/All Notes.base",
     "05 - Fleeting/Untitled.md",
@@ -289,13 +291,11 @@
     "99 - Meta/Typography.pdf",
     "LICENSE.md",
     "LICENSE",
-    "99 - Meta/Pomo.md",
     "99 - Meta/01 - Assets",
     "99 - Meta/00 - Templates",
     "99 - Meta",
     "07 - Archives",
     "06 - Daily",
-    "05 - Fleeting",
-    "04 - Permanent"
+    "05 - Fleeting"
   ]
 }
