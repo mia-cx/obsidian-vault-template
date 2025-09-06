@@ -1,0 +1,23 @@
+{
+  "livePreview": false,
+  "showLineNumber": false,
+  "propertiesInDocument": "visible",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "99 - Meta/01 - Assets",
+  "uriCallbacks": true,
+  "newFileFolderPath": "05 - Fleeting",
+  "showInlineTitle": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "userIgnoreFilters": null,
+  "promptDelete": false
+}
