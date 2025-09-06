@@ -1,0 +1,57 @@
+- [ ] Theme
+	- [ ] Typography
+		- [ ] Markdown
+		- [ ] Canvas
+		- [ ] Bases
+		- [ ] Excalidraw(?)
+		- [ ] Other data-types
+	- [ ] Scaling
+	- [ ] Spacing
+	- [ ] Colours
+	- [ ] Plugins
+	- [ ] Style Settings
+- [ ] Plugins
+	- [x] Core Plugins
+		- [x] Backlinks
+		- [x] Bases
+		- [x] Bookmarks
+		- [x] Canvas
+		- [x] Command palette
+		- [x] File Recovery
+		- [x] Files
+		- [x] Footnotes view
+		- [x] Graph view
+		- [x] Note composer
+		- [x] Outgoing links
+		- [x] Outline
+		- [x] Page preview
+		- [x] Properties view
+		- [x] Quick switcher
+		- [x] Random note
+		- [x] Search
+		- [x] Slash commands
+		- [x] Tags view
+		- [x] Templates
+		- [x] Unique note creator
+		- [x] Workspaces
+	- [ ] Community Plugins
+		- [x] Advanced Slides
+		- [x] Advanced URI
+		- [x] Better Word Count
+		- [x] BRAT
+		- [x] Calendar
+		- [x] Dataview
+		- [x] Excalidraw
+		- [x] Fontsource
+		- [x] Git
+		- [x] Iconize
+		- [ ] Make.md
+		- [x] Omnisearch
+		- [x] Outliner
+		- [/] Periodic Notes
+		- [x] Recent Files
+		- [x] Settings Search
+		- [x] Style Settings
+		- [x] Tag Wrangler
+		- [/] Templater
+		- [x] Text Extractor
