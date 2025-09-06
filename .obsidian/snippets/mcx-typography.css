@@ -1,0 +1,248 @@
+:root {
+	/* Font Families */
+	--font-monaspace-argon: "Monaspace Argon NF", "Monaspace Argon Var";
+	--font-monaspace-neon: "Monaspace Neon NF", "Monaspace Neon Var";
+	--font-monaspace-radon: "Monaspace Radon NF", "Monaspace Radon Var";
+	--font-monaspace-xenon: "Monaspace Xenon NF", "Monaspace Xenon Var";
+	--font-monaspace-krypton: "Monaspace Krypton NF",
+		"Monaspace Krypton Var";
+
+	--font-google-sans-code: "Google Sans Code";
+	--font-geist-mono: "GeistMono Nerd Font", "Geist Mono";
+	--font-jetbrains-mono: "JetBrainsMono Nerd Font", "JetBrains Mono";
+	--font-fira-code: "FiraCode Nerd Font";
+
+	/* Applied Font Families */
+
+	--mcx-font-text: var(--font-monaspace-argon), var(--mcx-font-fallbacks);
+	--mcx-font-interface: var(--font-google-sans-code), var(--mcx-font-text);
+	--mcx-font-script: var(--font-monaspace-radon), var(--mcx-font-text);
+	--mcx-font-monospace: var(--font-monaspace-xenon), var(--mcx-font-text);
+	--mcx-font-fallbacks: var(--font-google-sans-code),
+		var(--font-geist-mono), var(--font-jetbrains-mono),
+		var(--font-fira-code), monospace;
+
+	--mcx-h1-font: var(--font-google-sans-code), var(--mcx-font-text);
+	--mcx-h2-font: var(--font-monaspace-argon), var(--mcx-font-text);
+	--mcx-h3-font: var(--font-monaspace-xenon), var(--mcx-font-text);
+	--mcx-heading-font: var(--font-fira-code), var(--mcx-font-text);
+
+	/* Font Features */
+	--mcx-font-weight: 400;
+	--mcx-font-width: 100;
+	--mcx-font-slant: 0;
+	--mcx-texture-healing: 1;
+	--mcx-ligatures: 1;
+
+	/* Font Weights */
+	--mcx-font-h1-weight: 800;
+	--mcx-font-h2-weight: 600;
+	--mcx-font-h3-weight: 600;
+	--mcx-font-heading-weight: 600;
+}
+
+body {
+	/* Theme fonts */
+	--font-interface-theme: var(--mcx-font-interface);
+	--font-text-theme: var(--mcx-font-text);
+	--font-monospace-theme: var(--mcx-font-monospace);
+
+	--font-text: var(--font-text-override), var(--font-text-theme),
+		var(--font-default);
+	--font-interface: var(--font-interface-override),
+		var(--font-interface-theme), var(--font-default);
+	--font-monospace: var(--font-monospace-override),
+		var(--font-monospace-theme), var(--font-default);
+
+	--font-weight: var(--mcx-font-weight, 400);
+	--font-width: var(--mcx-font-width, 100);
+	--font-slant: var(--mcx-font-slant, 0);
+
+	font-variation-settings: "wght" var(--font-weight, 400),
+		"wdth" var(--font-width, 100), "slnt" var(--font-slant, 0);
+	font-feature-settings: "calt" var(--mcx-texture-healing, 1),
+		"liga" var(--mcx-ligatures, 1), "ss01" var(--mcx-ligatures, 1),
+		"ss02" var(--mcx-ligatures, 1), "ss03" var(--mcx-ligatures, 1),
+		"ss04" var(--mcx-ligatures, 1), "ss05" var(--mcx-ligatures, 1),
+		"ss06" var(--mcx-ligatures, 1), "ss07" var(--mcx-ligatures, 1),
+		"ss08" var(--mcx-ligatures, 1), "ss09" var(--mcx-ligatures, 1),
+		"ss10" var(--mcx-ligatures, 1);
+
+	/* Families */
+	--h1-font: var(--mcx-h1-font);
+	--h2-font: var(--mcx-h2-font);
+	--h3-font: var(--mcx-h3-font);
+	--h4-font: var(--mcx-heading-font);
+	--h5-font: var(--mcx-heading-font);
+	--h6-font: var(--mcx-heading-font);
+
+	/* Weights */
+	--h1-weight: var(--mcx-font-h1-weight);
+	--h2-weight: var(--mcx-font-h2-weight);
+	--h3-weight: var(--mcx-font-h3-weight);
+	--h4-weight: var(--mcx-font-heading-weight);
+	--h5-weight: var(--mcx-font-heading-weight);
+	--h6-weight: var(--mcx-font-heading-weight);
+}
+
+.markdown-source-view {
+	font-family: var(--font-text);
+}
+
+/* Suptitle */
+.markdown-source-view
+	.HyperMD-quote:has(
+		+ :is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+	) {
+	--font-text-theme: var(--mcx-font-script);
+	--font-text: var(--font-text-override), var(--font-text-theme),
+		var(--font-default);
+	font-family: var(--font-text);
+	opacity: 0.8;
+}
+
+/* Suptitle before */
+.markdown-source-view
+	.HyperMD-quote:has(
+		+ :is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+	):before {
+	display: none !important;
+}
+
+/* Suptitle blockquote formatting */
+.markdown-source-view
+	.HyperMD-quote:has(
+		+ :is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+	):not(.cm-active) {
+	padding-inline-start: 0px !important;
+}
+
+/* Subtitle */
+.markdown-source-view
+	.HyperMD-quote:is(
+		:is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+			+ *
+	):not(.cm-active) {
+	padding-inline-start: 0px !important;
+}
+
+.markdown-source-view
+	.HyperMD-quote:is(
+		:is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+			+ *
+	) {
+	--font-text-theme: var(--mcx-font-script);
+	--font-text: var(--font-text-override), var(--font-text-theme),
+		var(--font-default);
+	font-family: var(--font-text);
+	opacity: 0.8;
+}
+
+/* Subtitle before */
+.markdown-source-view
+	.HyperMD-quote:is(
+		:is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+			+ *
+	):before {
+	display: none !important;
+}
+
+/* Subtitle blockquote formatting */
+.markdown-source-view
+	.HyperMD-quote:is(
+		:is(
+				.HyperMD-header-1,
+				.HyperMD-header-2,
+				.HyperMD-header-3,
+				.HyperMD-header-4,
+				.HyperMD-header-5,
+				.HyperMD-header-6
+			)
+			+ *
+	)
+	.cm-formatting-quote {
+	width: 0;
+}
+
+/* Incidental Font Families */
+.font-argon {
+	font-family: var(--font-monaspace-argon), var(--mcx-font-text);
+}
+
+.font-neon {
+	font-family: var(--font-monaspace-neon), var(--mcx-font-text);
+}
+
+.font-radon {
+	font-family: var(--font-monaspace-radon), var(--mcx-font-text);
+}
+
+.font-xenon {
+	font-family: var(--font-monaspace-xenon), var(--mcx-font-text);
+}
+
+.font-krypton {
+	font-family: var(--font-monaspace-krypton), var(--mcx-font-text);
+}
+
+.font-google-sans-code {
+	font-family: var(--font-google-sans-code), var(--mcx-font-text);
+}
+
+.font-geist-mono {
+	font-family: var(--font-geist-mono), var(--mcx-font-text);
+}
+
+.font-jetbrains-mono {
+	font-family: var(--font-jetbrains-mono), var(--mcx-font-text);
+}
+
+.font-fira-code {
+	font-family: var(--font-fira-code), var(--mcx-font-text);
+}
+
+code {
+	font-family: var(--font-monospace);
+}

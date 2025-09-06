@@ -1,0 +1,3 @@
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+    --frame-right-space: 144px;
+}

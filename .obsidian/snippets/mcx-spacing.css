@@ -1,0 +1,288 @@
+:root {
+	--mcx-line-width: 80ch;
+
+	--mcx-padding-xxs: 0.125rem;
+	--mcx-padding-xs: 0.25rem;
+	--mcx-padding-sm: 0.5rem;
+	--mcx-padding-md: 0.75rem;
+	--mcx-padding-lg: 1rem;
+	--mcx-padding-xl: 1.5rem;
+	--mcx-padding-xxl: 2.5rem;
+	--mcx-padding-xxxl: 4rem;
+
+	--mcx-padding-h1-top: var(--mcx-padding-xxl);
+	--mcx-padding-h2-top: var(--mcx-padding-xl);
+	--mcx-padding-h3-top: var(--mcx-padding-lg);
+	--mcx-padding-h4-top: var(--mcx-padding-md);
+	--mcx-padding-h5-top: var(--mcx-padding-md);
+	--mcx-padding-h6-top: var(--mcx-padding-sm);
+	--mcx-padding-h1-bottom: var(--mcx-padding-lg);
+	--mcx-padding-h2-bottom: var(--mcx-padding-lg);
+	--mcx-padding-h3-bottom: var(--mcx-padding-md);
+	--mcx-padding-h4-bottom: var(--mcx-padding-md);
+	--mcx-padding-h5-bottom: var(--mcx-padding-md);
+	--mcx-padding-h6-bottom: var(--mcx-padding-sm);
+
+	--mcx-padding-top: var(--mcx-padding-lg);
+	--mcx-padding-bottom: var(--mcx-padding-lg);
+
+	--mcx-margin-xxs: 0.125rem;
+	--mcx-margin-xs: 0.25rem;
+	--mcx-margin-sm: 0.5rem;
+	--mcx-margin-md: 0.75rem;
+	--mcx-margin-lg: 1rem;
+	--mcx-margin-xl: 1.5rem;
+	--mcx-margin-xxl: 2.5rem;
+	--mcx-margin-xxxl: 4rem;
+
+	--mcx-margin-h1-top: var(--mcx-margin-xxl);
+	--mcx-margin-h2-top: var(--mcx-margin-xl);
+	--mcx-margin-h3-top: var(--mcx-margin-lg);
+	--mcx-margin-h4-top: var(--mcx-margin-md);
+	--mcx-margin-h5-top: var(--mcx-margin-md);
+	--mcx-margin-h6-top: var(--mcx-margin-sm);
+	--mcx-margin-h1-bottom: var(--mcx-margin-lg);
+	--mcx-margin-h2-bottom: var(--mcx-margin-lg);
+	--mcx-margin-h3-bottom: var(--mcx-margin-md);
+	--mcx-margin-h4-bottom: var(--mcx-margin-md);
+	--mcx-margin-h5-bottom: var(--mcx-margin-md);
+	--mcx-margin-h6-bottom: var(--mcx-margin-sm);
+
+	--mcx-margin-top: var(--mcx-margin-lg);
+	--mcx-margin-bottom: var(--mcx-margin-lg);
+
+	--mcx-spacing-xxs: 0.875rem;
+	--mcx-spacing-xs: 1rem;
+	--mcx-spacing-sm: 1.25rem;
+	--mcx-spacing-md: 1.5rem;
+	--mcx-spacing-lg: 2rem;
+	--mcx-spacing-xl: 2.5rem;
+	--mcx-spacing-xxl: 4rem;
+	--mcx-spacing-xxxl: 6rem;
+}
+
+body {
+	--file-line-width: var(--mcx-line-width);
+}
+
+/* ==================================================== */
+/* Source View */
+/* ==================================================== */
+
+/* Heading padding */
+.markdown-source-view
+	.cm-line:is(
+		.HyperMD-header-1,
+		.HyperMD-header-2,
+		.HyperMD-header-3,
+		.HyperMD-header-4,
+		.HyperMD-header-5,
+		.HyperMD-header-6
+	):is(:first-child) {
+	/* first-child */
+	padding-top: 0;
+}
+.markdown-source-view
+	.cm-line:is(
+		.HyperMD-header-1,
+		.HyperMD-header-2,
+		.HyperMD-header-3,
+		.HyperMD-header-4,
+		.HyperMD-header-5,
+		.HyperMD-header-6
+	) {
+	padding-top: var(--mcx-padding-top);
+	/* padding-bottom: var(--mcx-padding-bottom); */
+}
+.markdown-source-view
+	.cm-line:is(
+		.HyperMD-header-1,
+		.HyperMD-header-2,
+		.HyperMD-header-3,
+		.HyperMD-header-4,
+		.HyperMD-header-5,
+		.HyperMD-header-6
+	):has(+ .HyperMD-quote) {
+	/* Heading has subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-xxs);
+}
+.markdown-source-view
+	.cm-line:is(
+		.HyperMD-header-1,
+		.HyperMD-header-2,
+		.HyperMD-header-3,
+		.HyperMD-header-4,
+		.HyperMD-header-5,
+		.HyperMD-header-6
+	):is(.HyperMD-quote + *) {
+	/* Heading has suptitle */
+	--mcx-padding-top: var(--mcx-padding-xxs);
+}
+.markdown-source-view .cm-line:is(.HyperMD-quote) {
+    /* sub- & suptitles */
+	--mcx-padding-top: 0;
+	--mcx-padding-bottom: 0;
+	padding-top: var(--mcx-padding-top);
+	/* padding-bottom: var(--mcx-padding-bottom); */
+}
+.markdown-source-view .cm-line:is(.HyperMD-header-1) {
+	/* h1 */
+	--mcx-padding-top: var(--mcx-padding-h1-top);
+	--mcx-padding-bottom: var(--mcx-padding-h1-bottom);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):has(+ .cm-line:is(.HyperMD-header-1)) {
+	/* h1 suptitle */
+	--mcx-padding-top: var(--mcx-padding-h1-top);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):is(.cm-line:is(.HyperMD-header-1) + *) {
+	/* h1 subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-h1-bottom);
+}
+
+.markdown-source-view .cm-line:is(.HyperMD-header-2) {
+	/* h2 */
+	--mcx-padding-top: var(--mcx-padding-h2-top);
+	--mcx-padding-bottom: var(--mcx-padding-h2-bottom);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):has(+ .cm-line:is(.HyperMD-header-2)) {
+	/* h2 suptitle */
+	--mcx-padding-top: var(--mcx-padding-h2-top);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):is(.cm-line:is(.HyperMD-header-2) + *) {
+	/* h2 subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-h2-bottom);
+}
+
+.markdown-source-view .cm-line:is(.HyperMD-header-3) {
+	/* h3 */
+	--mcx-padding-top: var(--mcx-padding-h3-top);
+	--mcx-padding-bottom: var(--mcx-padding-h3-bottom);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):has(+ .cm-line:is(.HyperMD-header-3)) {
+	/* h3 suptitle */
+	--mcx-padding-top: var(--mcx-padding-h3-top);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):is(.cm-line:is(.HyperMD-header-3) + *) {
+	/* h3 subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-h3-bottom);
+}
+
+.markdown-source-view .cm-line:is(.HyperMD-header-4) {
+	/* h4 */
+	--mcx-padding-top: var(--mcx-padding-h4-top);
+	--mcx-padding-bottom: var(--mcx-padding-h4-bottom);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):has(+ .cm-line:is(.HyperMD-header-4)) {
+	/* h4 suptitle */
+	--mcx-padding-top: var(--mcx-padding-h4-top);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):is(.cm-line:is(.HyperMD-header-4) + *) {
+	/* h4 subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-h4-bottom);
+}
+
+.markdown-source-view .cm-line:is(.HyperMD-header-5) {
+	/* h5 */
+	--mcx-padding-top: var(--mcx-padding-h5-top);
+	--mcx-padding-bottom: var(--mcx-padding-h5-bottom);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):has(+ .cm-line:is(.HyperMD-header-5)) {
+	/* h5 suptitle */
+	--mcx-padding-top: var(--mcx-padding-h5-top);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):is(.cm-line:is(.HyperMD-header-5) + *) {
+	/* h5 subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-h5-bottom);
+}
+
+.markdown-source-view .cm-line:is(.HyperMD-header-6) {
+	/* h6 */
+	--mcx-padding-top: var(--mcx-padding-h6-top);
+	--mcx-padding-bottom: var(--mcx-padding-h6-bottom);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):has(+ .cm-line:is(.HyperMD-header-6)) {
+	/* h6 suptitle */
+	--mcx-padding-top: var(--mcx-padding-h6-top);
+}
+.markdown-source-view
+	.cm-line:is(.HyperMD-quote):is(.cm-line:is(.HyperMD-header-6) + *) {
+	/* h6 subtitle */
+	--mcx-padding-bottom: var(--mcx-padding-h6-bottom);
+}
+
+/* ==================================================== */
+/* Reading view (margin) */
+/* ==================================================== */
+
+/* Heading margin */
+.markdown-reading-view .markdown-rendered div > :is(h1, h2, h3, h4, h5, h6) {
+	margin-top: var(--mcx-margin-top) !important;
+	margin-bottom: var(--mcx-margin-bottom) !important;
+}
+.markdown-reading-view
+	.markdown-rendered
+	div:is(.el-blockquote + *)
+	> :is(h1, h2, h3, h4, h5, h6) {
+	/* Heading has suptitle */
+	--mcx-margin-top: var(--mcx-margin-xxs);
+}
+.markdown-reading-view
+	.markdown-rendered
+	div:has(+ .el-blockquote)
+	> :is(h1, h2, h3, h4, h5, h6) {
+	/* Heading has subtitle */
+	--mcx-margin-bottom: var(--mcx-margin-xxs);
+}
+.markdown-reading-view .markdown-rendered div > blockquote {
+    --mcx-margin-top: 0;
+    --mcx-margin-bottom: 0;
+    margin-top: var(--mcx-margin-top);
+    margin-bottom: var(--mcx-margin-bottom);
+}
+
+.markdown-reading-view .markdown-rendered div > :is(h1) {
+    /* h1 */
+	--mcx-margin-top: var(--mcx-margin-h1-top);
+	--mcx-margin-bottom: var(--mcx-margin-h1-bottom);
+}
+.markdown-reading-view .markdown-rendered div:has(h1) +  {
+    /* h1 suptitle */
+	--mcx-margin-top: var(--mcx-margin-h1-top);
+	--mcx-margin-bottom: var(--mcx-margin-h1-bottom);
+}
+
+.markdown-reading-view .markdown-rendered div > :is(h2) {
+	--mcx-margin-top: var(--mcx-margin-h2-top);
+	--mcx-margin-bottom: var(--mcx-margin-h2-bottom);
+}
+
+.markdown-reading-view .markdown-rendered div > :is(h3) {
+	--mcx-margin-top: var(--mcx-margin-h3-top);
+	--mcx-margin-bottom: var(--mcx-margin-h3-bottom);
+}
+
+.markdown-reading-view .markdown-rendered div > :is(h4) {
+	--mcx-margin-top: var(--mcx-margin-h4-top);
+	--mcx-margin-bottom: var(--mcx-margin-h4-bottom);
+}
+
+.markdown-reading-view .markdown-rendered div > :is(h5) {
+	--mcx-margin-top: var(--mcx-margin-h5-top);
+	--mcx-margin-bottom: var(--mcx-margin-h5-bottom);
+}
+
+.markdown-reading-view .markdown-rendered div > :is(h6) {
+	--mcx-margin-top: var(--mcx-margin-h6-top);
+	--mcx-margin-bottom: var(--mcx-margin-h6-bottom);
+}
