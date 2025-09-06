@@ -1,0 +1,262 @@
+{
+  "settings": {
+    "useAdvancedFormatting": true,
+    "countType": "word",
+    "countConfig": {
+      "customSuffix": " words",
+      "$sessionCountType": "word"
+    },
+    "countType2": "percentgoal",
+    "countConfig2": {
+      "$sessionCountType": "word",
+      "customSuffix": "%"
+    },
+    "countType3": "readtime",
+    "countConfig3": {
+      "$sessionCountType": "word"
+    },
+    "pipeSeparator": "|",
+    "abbreviateDescriptions": false,
+    "alignment": "below",
+    "showSameCountsOnFolders": false,
+    "folderCountType": "note",
+    "folderCountConfig": {
+      "customSuffix": " notes",
+      "$sessionCountType": "word"
+    },
+    "folderCountType2": "readtime",
+    "folderCountConfig2": {
+      "$sessionCountType": "word"
+    },
+    "folderCountType3": "none",
+    "folderCountConfig3": {
+      "$sessionCountType": "word"
+    },
+    "folderPipeSeparator": "|",
+    "folderAbbreviateDescriptions": false,
+    "folderAlignment": "below",
+    "showSameCountsOnRoot": false,
+    "rootCountType": "note",
+    "rootCountConfig": {
+      "customSuffix": " notes",
+      "$sessionCountType": "word"
+    },
+    "rootCountType2": "none",
+    "rootCountConfig2": {
+      "$sessionCountType": "word"
+    },
+    "rootCountType3": "readtime",
+    "rootCountConfig3": {
+      "$sessionCountType": "word"
+    },
+    "rootPipeSeparator": "|",
+    "rootAbbreviateDescriptions": false,
+    "showAdvanced": true,
+    "labelOpacity": 0.8,
+    "wordsPerMinute": 265,
+    "charsPerMinute": 500,
+    "wordsPerPage": 300,
+    "charsPerPage": 1500,
+    "charsPerPageIncludesWhitespace": false,
+    "characterCountType": "AllCharacters",
+    "pageCountType": "ByWords",
+    "includeDirectories": "!00 - Maps of Content, !07 - Archives, !99 - Meta",
+    "excludeComments": true,
+    "excludeCodeBlocks": false,
+    "excludeNonVisibleLinkPortions": false,
+    "excludeFootnotes": false,
+    "momentDateFormat": "YYYY-MM-DD",
+    "debugMode": false
+  },
+  "cachedCounts": {
+    "TODO.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 125,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.4166666666666667,
+      "characterCount": 1089,
+      "nonWhitespaceCharacterCount": 774,
+      "newlineCount": 57,
+      "readingTimeInMinutes": 0.4716981132075472,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1757125614957,
+      "modifiedDate": 1757126605908,
+      "sizeInBytes": 1089,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.4166666666666667,
+        "wordCount": 125,
+        "characterCount": 1089,
+        "nonWhitespaceCharacterCount": 774,
+        "newlineCount": 57
+      }
+    },
+    "README.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 8,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 70,
+      "nonWhitespaceCharacterCount": 61,
+      "newlineCount": 3,
+      "readingTimeInMinutes": 0.03018867924528302,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1757069367807,
+      "modifiedDate": 1757119609509,
+      "sizeInBytes": 70,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.02666666666666667,
+        "wordCount": 8,
+        "characterCount": 70,
+        "nonWhitespaceCharacterCount": 61,
+        "newlineCount": 3
+      }
+    },
+    "LICENSE": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1757069367807,
+      "modifiedDate": 1757069367807,
+      "sizeInBytes": 35184,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "99 - Meta/Typography.md": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1757074110097,
+      "modifiedDate": 1757117287754,
+      "sizeInBytes": 1724,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "99 - Meta/Pomo.md": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1757070223204,
+      "modifiedDate": 1757073390522,
+      "sizeInBytes": 772,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "99 - Meta/sortspec.md": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1757070226729,
+      "modifiedDate": 1752711973568,
+      "sizeInBytes": 265,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "99 - Meta/All Notes.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1757120243036,
+      "modifiedDate": 1757120546876,
+      "sizeInBytes": 39,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    }
+  }
+}

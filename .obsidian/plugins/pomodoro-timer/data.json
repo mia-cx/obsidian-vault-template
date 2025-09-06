@@ -1,0 +1,19 @@
+{
+  "workLen": 25,
+  "breakLen": 5,
+  "autostart": false,
+  "useStatusBarTimer": true,
+  "notificationSound": true,
+  "customSound": "",
+  "showTaskProgress": true,
+  "enableTaskTracking": true,
+  "logFile": "FILE",
+  "logFocused": false,
+  "logPath": "99 - Meta/Pomo.md",
+  "logLevel": "ALL",
+  "logTemplate": "<%*\nconst dtfmt = \"YYYY-MM-DD'T'HH:mm:ss.SSSZ\";\nlet emoji = \"🍅\";\nif (log.mode == \"WORK\") {\n    if (!log.finished) {\n        emoji = \"🟡\";\n    } else {\n        emoji = \"🍅\"\n    }\n} else {\n    emoji = \"☕\"\n}\ntR = `- (pomodoro::${emoji}) Started: (begin::${log.begin.format(dtfmt)}), Ended: (end::${log.end.format(dtfmt)}). ${log.task.name ? `Worked on: (focused::[[/${encodeURI(log.task.path)}${log.task.blockLink}|${log.task.name}]]), focusing` : 'Focused'} for (duration::${log.duration}) minutes`\n%>",
+  "logFormat": "CUSTOM",
+  "useSystemNotification": true,
+  "taskFormat": "DATAVIEW",
+  "lowFps": false
+}

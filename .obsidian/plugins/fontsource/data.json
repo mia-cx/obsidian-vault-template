@@ -1,0 +1,94 @@
+{
+  "fonts": [
+    {
+      "id": "archivo",
+      "family": "Archivo",
+      "subsets": [
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "variable": {
+        "ital": {
+          "default": "0",
+          "min": "0",
+          "max": "1",
+          "step": "1"
+        },
+        "wdth": {
+          "default": "100",
+          "min": "62",
+          "max": "125",
+          "step": "0.1"
+        },
+        "wght": {
+          "default": "400",
+          "min": "100",
+          "max": "900",
+          "step": "1"
+        }
+      },
+      "isActive": true
+    },
+    {
+      "id": "monaspace-argon",
+      "family": "Monaspace Argon",
+      "subsets": [
+        "latin"
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "isActive": true
+    },
+    {
+      "id": "monaspace-radon",
+      "family": "Monaspace Radon",
+      "subsets": [
+        "latin"
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "isActive": true
+    }
+  ],
+  "interfaceFonts": [],
+  "textFonts": [],
+  "monospaceFonts": []
+}

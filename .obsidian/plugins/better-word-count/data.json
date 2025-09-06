@@ -1,0 +1,83 @@
+{
+  "statusBar": [
+    {
+      "prefix": "",
+      "suffix": " words",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": ", ",
+      "suffix": " characters",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " | Today: ",
+      "suffix": "w",
+      "metric": {
+        "type": 1,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": ", ",
+      "suffix": "c",
+      "metric": {
+        "type": 1,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " in ",
+      "suffix": "f",
+      "metric": {
+        "type": 1,
+        "counter": 6
+      }
+    }
+  ],
+  "altBar": [
+    {
+      "prefix": "",
+      "suffix": " files",
+      "metric": {
+        "type": 2,
+        "counter": 6
+      }
+    },
+    {
+      "prefix": " | Today: ",
+      "suffix": "w",
+      "metric": {
+        "type": 1,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": ", ",
+      "suffix": "c",
+      "metric": {
+        "type": 1,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " in ",
+      "suffix": "f",
+      "metric": {
+        "type": 1,
+        "counter": 6
+      }
+    }
+  ],
+  "countComments": true,
+  "collectStats": true,
+  "displaySectionCounts": true,
+  "pageWords": 300,
+  "statsPath": ".obsidian/vault-stats.json"
+}
