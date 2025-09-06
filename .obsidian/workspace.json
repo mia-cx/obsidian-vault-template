@@ -120,12 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "99 - Meta/00 - Templates/README.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README.md"
             }
           },
           {
@@ -275,21 +276,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "38cbd47c77e10f6b",
+  "active": "6459e16b4017a0e2",
   "lastOpenFiles": [
+    "00 - Maps of Content/README.md",
+    "01 - Projects/README.md",
+    "02 - Areas/README.md",
+    "03 - Resources/README.md",
+    "04 - Permanent/README.md",
+    "05 - Fleeting/README.md",
+    "06 - Daily/README.md",
+    "07 - Archives/README.md",
+    "99 - Meta/README.md",
+    "99 - Meta/01 - Assets/README.md",
+    "99 - Meta/00 - Templates/README.md",
+    "00 - Maps of Content/README.md.md",
+    "01 - Projects/README.md.md",
+    "02 - Areas/README.md.md",
+    "03 - Resources/README.md.md",
+    "04 - Permanent/README.md.md",
+    "05 - Fleeting/README.md.md",
+    "06 - Daily/README.md.md",
+    "07 - Archives/README.md.md",
+    "99 - Meta/README.md.md",
+    "99 - Meta/01 - Assets/README.md.md",
+    "99 - Meta/00 - Templates/README.md.md",
     "99 - Meta/Typography.md",
     "99 - Meta/Pomo.md",
     "99 - Meta/sortspec.md",
     "README.md",
-    "TODO.md",
     "Tags",
     "05 - Fleeting/Untitled.canvas",
     "Untitled.canvas",
     "99 - Meta/All Notes.base",
-    "05 - Fleeting/Untitled.md",
-    "05 - Fleeting/LICENSE.md",
     "99 - Meta/Typography.pdf",
-    "LICENSE.md",
     "LICENSE",
     "99 - Meta/01 - Assets",
     "99 - Meta/00 - Templates",
